@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Retorno Fcamara</title>
+       <link rel="stylesheet" href="resete.css">
+        <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="myscript.js"> </script>
+    </head>
+
+    <body>
+
+<header>
+  <div class='caixa'>
+    <h1><img src="https://magento.fcamara.com.br/wp-content/uploads/2021/01/logo-fcamara-laranja-02-1.png" width="200px" height="200px"></h1>
+    <nav>
+
+
+          <h1 class="ml3">Vai retornar ao trabalho?</h1>
+          <br>
+          <br>
+<h3> Verifique as regras<h3>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+          <script type="text/javascript">
+          // Wrap every letter in a span
+          var textWrapper = document.querySelector('.ml3');
+          textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+          anime.timeline({loop: true})
+            .add({
+              targets: '.ml3 .letter',
+              opacity: [0,1],
+              easing: "easeInOutQuad",
+              duration: 3500,
+              delay: (el, i) => 20 * (i+1)
+            }).add({
+              targets: '.ml3',
+              opacity: 0,
+              duration: 1000,
+              easing: "easeOutExpo",
+              delay: 1000
+            });
+
+            </script>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <ul class="quadros">
+    <li><h2> Use Mascara</h2>
+
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwxSLWcIR7pTZdTNMqalOuX4a1bS5Tla3q6zumvhpftbKPeP6TA2v8DgVxpQrqwqB95Qg&usqp=CAU">
+
+      <p class="descrição">O uso de máscara é obrigatório durante todo o tempo de permanência no prédio, permitida a retirada apenas para troca ou alimentar-se</p>
+      <p class="msm">Previna-se</p>
+   </li>
+    <li><h2>Álcool em Gel</h2>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoh4G4Y8vvpxsVrO1sSbJCziRhnwWKQAR7NQ&usqp=CAU">
+       <p class="descrição">Higienize seus equipamentos antes e após o uso, caso não haja o necessário procure a equipe de limpeza para reposição do necessário</p>
+       <p class="msm">Higienize-se</p>
+   </li>
+    <li><h2>Temperatura</h2>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVNPMasUe3yongylrAOazoeOHzkDHpIqVTvA&usqp=CAU">
+       <p class="descrição">Ao chegar nas dependências será verificada sua temperatura, caso esteja acima do normal sua entrada não será permitida, permaneça em casa</p>
+       <p class="msm">Seja consciente</p>
+   </li>
+   </ul>
+</main>
+<br>
+<main>
+<div class="aviso">
+<ul>
+
+  <h1>AVISOS</h1>
+<p>Os escritórios ficarão abertos das 8 horas até às 18 horas.</p>
+<p>Para trabalhar presencialmente em uma das unidades, São Paulo ou Santos será obrigatório agendamento prévio por este canal.</p>
+<p>Você receberá um e-mail de confirmação caso haja disponibilidade.</p>
+<p> Duvidas podem ser ser esclarecidas com seu facilitador imediato.</p>
+<p>Só será permitido o trabalho em uma das unidades até no máximo 40% das estações estarem ocupadas.</p>
+<p>Apenas os locais com esta demarcação<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvycW_9BXeYHc7ibf9qontf_ifdTtaJzGsxA&usqp=CAU" onMouseOver="aumenta(this)" onMouseOut="diminui(this)"> estará liberado para uso.</p>
+<h3>Quem não estiver a vontade para retornar aos escritórios pode optar por continuar trabalhando em casa.</h3>
+<h2> Seja Muito Bem Vindo de Volta!!!🧡🧡<h2>
+
+
+</ul>
+</div>
+</main>
+<br>
+<h4>#SangueLaranja</h4>
+
+<footer class="form">
+<ul>
+<h2>Reservas</h2>
+<form action="http://www.uki.edu/cgi-bin/AnyForm.cgi" method="post">
+<input type="Hidden" name="AnyFormModle" value="Mail">
+<input type="Hidden" name="AnyFormDisplay" value="http://www.gun.com.br">
+<input type="Hidden" name="AnyFormTo" value="gun@gun.com.br">
+<input type="Hidden" name="AnyFormSubject" value="Dados do Formulário de HTML">
+<li>Qual o seu nome?<input type="Text" name="Nome" size="40"></li>
+
+<!--<li>Qual o seu E-mail?<input type="Text" name="E-mail" size="40"></li>-->
+
+
+
+ <!--<li><p>Você concorda em respeitar </p></li><li><p>as condições expostas </p></li><li><input type="Radio" name="Gostou" value="Sim">sim <input type="Radio" name="Gostou" value="Não"CHECKED>
+Não </li>-->
+<li><input id="date" type="date">
+  <input type="time" id="appt" name="appt"
+       min="08:00" max="18:00" required></li>
+      <li> Marque sua mesa
+       <input type=”number”></li>
+<select name="Melhor Página"><option value="Interface">Onde você quer agendar?</option>
+
+<li><option value="Frames">São Paulo</option>
+<option value="Ferramentas">Santos</option></li>
+
+
+<li><input type="Submit" value="Enviar ">
+<input type="Reset" value="Limpar Dados"></li>
+
+
+</ul>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEQiKaaO_nvVmnpY0UC57cpfk93l3D3qoz4A&usqp=CAU" class="imagem"alt="">
+
+</footer>
+    </body>
+
+</htm>
